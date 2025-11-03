@@ -154,7 +154,7 @@ void up()
 {
     roboEyes.setIdleMode(OFF, 2, 2);
     roboEyes.setPosition(N);
-    SecsUpdate(7);
+    SecsUpdate(12);
     roboEyes.setIdleMode(ON, 5, 1);
 }
 
