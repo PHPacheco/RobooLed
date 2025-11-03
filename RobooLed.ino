@@ -128,9 +128,6 @@ void help()
 {
     writeMessage("Socorro!\n       Me ajuda!", 40, 22, 1);
     delay(3000);
-
-    writeMessage("Me tira daqui!!!", 40, 22, 1);
-    delay(3000);
 }
 
 void oneEye()
