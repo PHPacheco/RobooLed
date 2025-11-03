@@ -212,11 +212,12 @@ void writeMessage(String Message, int x, int y, int textSize)
 void loop()
 {
     SecsUpdate(15);
+    
     now = millis();
-    randomNumber = random(1, 100);
+    randomNumber = random(1, 101);
+
     if (randomNumber >= 30)
     {
-        randomNumber = random(0, 101);
         if (randomNumber <= 40)
         {
             angry();
