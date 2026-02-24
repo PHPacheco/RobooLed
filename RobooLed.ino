@@ -63,7 +63,6 @@ void setup()
         angry();
         break;
     case 1:
-        angry();
         up();
         break;
     default:
@@ -95,7 +94,7 @@ void angry()
     SecsUpdate(12);
 
     roboEyes.setPosition(S);
-    SecsUpdate(1);
+    SecsUpdate(1.5);
 
     roboEyes.setIdleMode(ON, 5, 1);
     roboEyes.setMood(DEFAULT);
@@ -126,8 +125,14 @@ void shake()
 
 void help()
 {
-    writeMessage("Socorro!\n       Me ajuda!", 40, 22, 1);
-    delay(3000);
+    writeMessage("Help me!!", 40, 22, 1);
+    delay(2500);
+
+    writeMessage("Get me out of here!!", 8, 22, 1);
+    delay(500);
+
+    roboEyes.anim_confused();
+    SecsUpdate(1);
 }
 
 void oneEye()
@@ -157,7 +162,7 @@ void up()
 
 void glitch()
 {
-    writeMessage("❤️😁🤷‍♂️😎", 0, 0, 3);
+    writeMessage("ꪻꫀꪻꫀꪻꫀꪻꫀ", 0, 0, 3);
     delay(7000);
 }
 
