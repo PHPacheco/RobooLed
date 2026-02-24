@@ -4,7 +4,7 @@ An Arduino Nano project that gives life and emotions to an OLED display using th
 
 The robot face reacts randomly with various moods such as *angry*, *tired*, *confused*, *happy*, *dead*, and more.
 
-[*angry*](https://github.com/PHPacheco/RobooLed/blob/main/angry.gif)
+![*angry*](angry.gif)
 
 ## Features
 - Random emotional reactions and animations
@@ -23,7 +23,10 @@ The robot face reacts randomly with various moods such as *angry*, *tired*, *con
 
 ## Exemple made on the *Wokwi*
 I created an example in Wokwi, including the library I used and my own settings.
-It can be accessed [here](https://github.com/PHPacheco/RobooLed/blob/main/RoboLed.png).
+It can be accessed [here](https://wokwi.com/projects/444554668866188289).
+
+![Example of the project ](RoboLed.png)
+
 
 
 ## Libraries Used
